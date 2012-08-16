@@ -1,0 +1,81 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+	font-size: 9pt;
+	color: #333;
+}
+#upload {
+	color: #bcbcbc;
+	font-size: 83%;
+	width: 600px;
+	position: relative;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -300px;
+}
+a{
+	color: #2791da;
+	font-size: 11pt;
+	text-decoration: none;
+}
+a:hover{
+	color: #e076bd;
+}
+img{
+	vertical-align: bottom;
+	padding: 0 3px 0 0;
+}
+table{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+	table td{
+		padding: 5px;
+	}
+	thead td{
+		padding-left: 0;
+		font-family: "Trebuchet MS";
+		font-size: 11pt;
+		font-weight: bold;
+	}
+.back {
+	
+	font-size: 83%;
+	color: #2791da;
+	text-align: right;
+	}
+	tbody .folder td{
+		border-bottom-width: 1px;
+		border-style: solid;
+		border-color: #f8f8f8;
+	}
+	tbody .file td{
+		border-bottom-width: 1px;
+		border-style: solid;
+		border-color: #ddd;
+		background: #fff;
+	}
+	tbody .file td.size,
+	tbody .file td.time{
+		white-space: nowrap;
+		width: 1%;
+		padding: 5px 10px;
+	}
+	tbody .file td.size span{
+		color: #999;
+		font-size: 8pt;
+	}
+	tbody .file td.time{
+		color: #555;
+	}
+
+div{
+	text-align: center;
+}
+
+.LightBox{
+	width:500px; 
+	margin-left:auto;
+	margin-right:auto; 
+	text-align:center
+}
